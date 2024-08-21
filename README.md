@@ -1,6 +1,7 @@
 # How to run:
 
-Clone this repository
+Clone this repository 
+\
 Open the terminal inside the folder and run:
 
 ```sh
