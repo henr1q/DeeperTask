@@ -1,7 +1,7 @@
 # How to run:
 
 ```sh
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 then 
 
