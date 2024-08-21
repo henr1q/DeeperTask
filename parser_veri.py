@@ -12,12 +12,6 @@ from selenium.webdriver.support import expected_conditions as EC
 import pytz
 
 def convert_event_date(event_date_str: str) -> str:
-    """
-    Converts the event date string to the desired format.
-    Handles the following formats:
-    - "8:00 PM ET (8/22/2024)"
-    - "6:40 PM ET"
-    """
     try:
         date_obj = datetime.strptime(event_date_str, "%I:%M %p ET (%m/%d/%Y)")
     except ValueError:
